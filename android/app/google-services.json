@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "186653855374",
+    "project_id": "fenjoy-c89a7",
+    "storage_bucket": "fenjoy-c89a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186653855374:android:a97fac1b29cc0bf134c3df",
+        "android_client_info": {
+          "package_name": "com.example.fenjoy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbPDTaGWRG9gL0k5VaZoDVbVLjfzw6iEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

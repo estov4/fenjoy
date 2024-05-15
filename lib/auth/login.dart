@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:fenjoy/user/homeScreen.dart'; // Import your HomeScreen widget
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key});
+class LoginPage extends StatelessWidget {
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
 
-  @override
-  _LoginPageState createState() => _LoginPageState();
-}
+  LoginPage({super.key});
 
-class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,23 +29,23 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               const SizedBox(height: 16.0),
-              const TextField(
-                decoration: InputDecoration(
+              TextField(
+                controller: _emailController,
+                decoration: const InputDecoration(
                   labelText: 'Username',
                 ),
               ),
               const SizedBox(height: 16.0),
-              const TextField(
+              TextField(
+                controller: _passwordController,
                 obscureText: true,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   labelText: 'Password',
                 ),
               ),
               const SizedBox(height: 16.0),
               ElevatedButton(
-                onPressed: () {
-                  // Add your login logic here
-                },
+                onPressed: () => _login(context),
                 child: const Text('Login'),
               ),
               const SizedBox(height: 16.0),
@@ -60,6 +59,13 @@ class _LoginPageState extends State<LoginPage> {
           ),
         ),
       ),
+    );
+  }
+
+  void _login(BuildContext context) {
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => HomeScreen()),
     );
   }
 }
