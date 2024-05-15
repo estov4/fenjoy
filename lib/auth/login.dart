@@ -1,15 +1,12 @@
 import 'dart:developer';
 
-import 'package:fenjoy/auth/auth_service.dart';
-import 'package:fenjoy/auth/signup.dart';
-import 'package:fenjoy/home/home.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key});
+  const LoginPage({super.key});
 
   @override
-  _LoginPageState createState() => _LoginPageState();
+  State<LoginPage> createState() => _LoginPageState();
 }
 
 class _LoginPageState extends State<LoginPage> {
