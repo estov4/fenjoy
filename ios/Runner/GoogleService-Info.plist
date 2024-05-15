@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBcj5LwMbJzU6tAXFUVcMf7Igeb1uIfPHw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>222050806709</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.fenjoy</string>
+	<key>PROJECT_ID</key>
+	<string>fenjoy-1b5d7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fenjoy-1b5d7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:222050806709:ios:a24f75e5acbcb385f3c7fc</string>
+</dict>
+</plist>
